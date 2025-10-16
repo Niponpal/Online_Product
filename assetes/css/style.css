@@ -1,0 +1,70 @@
+/*------------ Navbar Area---------------- */
+
+.Navbar{
+    background-color: grey !important;
+}
+
+.Navbar .navbar .container .navbar-brand{
+    font-size: 40px;
+    color: rgb(248, 248, 248);
+   
+}
+
+.Navbar .navbar .container .collapse .navbar-nav .nav-item .nav-link{
+    color: #212529;
+    font-size: 20px;
+}
+
+.Navbar .navbar .container .collapse .navbar-nav .nav-item .nav-link:hover{
+    color: orange;
+    font-size: 21px;
+}
+/*------------ Carousel_Area Area---------------- */
+
+.Carousel_Area .carousel{
+    width: 100%;
+    height: 70vh ;
+}
+
+.Carousel_Area .carousel .carousel-inner {
+    width: 100%;
+    height: 70vh;
+}
+
+.Carousel_Area .carousel  .carousel-inner {
+ width: 100%;
+    height: 100%;
+}
+.Carousel_Area .carousel .carousel-inner  .carousel-item {
+   width: 100%;
+    height: 100%; 
+}
+
+.Carousel_Area .carousel .carousel-inner  .carousel-item img {
+   width: 100%;
+    height: 100%; 
+}
+
+.Carousel_Area .carousel .carousel-indicators button {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.Carousel_Area .carousel .carousel-indicators button.active{
+     color: red;
+    background-color: red;
+}
+/*------------ Recommended_area  Area---------------- */
+
+.Recommended_area  .Text-area{
+    margin-top: 5px;
+    background-color: rgb(7, 106, 244);
+    height: 70px !important;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 25px;
+  color:white;
+  padding: 10px;
+
+}
