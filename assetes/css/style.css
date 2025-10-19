@@ -92,4 +92,41 @@
 
 
 
+  /* Make all team images uniform */
+
+  .team_area  .position-relative {
+    width: 100%;
+    height: 280px;
+  }
+
+  .team_area .card-img-top {
+    width: 100%;
+    height: 300px; /* You can adjust this (e.g., 250px, 280px) */
+    object-fit: fill; /* Keeps aspect ratio, crops overflow nicely */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+ 
+
+  /* Optional – make all cards same height */
+  .team_area .card {
+    height: 100%;
+  }
+
+  /* Optional – slight hover effect for modern look */
+  .team_area .card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s ease-in-out;
+  }   
+
+
+ .team_area  .card-body{
+    margin-top: 10px;
+ }
+
+
+
+
+
 
